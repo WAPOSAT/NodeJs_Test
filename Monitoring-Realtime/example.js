@@ -67,7 +67,7 @@ sp.on("error", function (err) {				// se realiza el evento de sp error
 });
 
 sp.on("open", function () {					// se realiza el evento de sp abierto
-  console.log("port opened... Press reset on the Arduino.");	// se muestra el mensaje para reiniciar el arduino
+  console.log("port opened... Press reset on the ARDUINO.");	// se muestra el mensaje para reiniciar el arduino
 });
 
 io.sockets.on("connection", function (socket) {
